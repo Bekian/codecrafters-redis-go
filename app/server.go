@@ -14,7 +14,7 @@ func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Print("Enter your name: ")
+	fmt.Print(">")
 
 	// Read a line of text (until Enter is pressed)
 	userInput, err := reader.ReadString('\n')
